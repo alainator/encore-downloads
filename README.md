@@ -10,6 +10,7 @@ adds songs from their phone's browser. These are the installers. Get them from t
 |---|---|---|
 | **Host the party** on an Android tablet or phone | `Encore-Station-<version>.apk` | Android 8 or newer |
 | **Host the party** on a Windows PC or laptop | `Encore-Setup-<version>.exe` (or the portable `.zip`) | Windows 10 / 11, 64-bit |
+| **Host the party** on a home server, mini PC or NAS | the Docker image `ghcr.io/alainator/encore` | Linux with Docker (x86-64) |
 | **Show the party on a TV** | `Encore-TV-<version>.apk` | Android TV, Google TV, NVIDIA SHIELD, Chromecast with Google TV, Fire TV |
 | **Join and add songs** | nothing to install | any phone's browser: scan the QR code on the TV |
 
@@ -41,6 +42,16 @@ stick and open it with a file manager.
    phones and TVs on your Wi-Fi can reach it.
 
 No installer wanted? Unzip `Encore-Windows-portable-<version>.zip` and run `Encore.exe`.
+
+### Docker (home server, mini PC, NAS)
+```sh
+docker run -d --name encore --restart unless-stopped -p 5580:5580 \
+  -v /path/to/your/songs:/library:ro -v encore-data:/data \
+  ghcr.io/alainator/encore:latest
+```
+Then open `http://<that machine's address>:5580/station` on a tablet or computer to host, and point TVs at the same
+address (`/tv`). Set a host PIN when the Station asks. Update with `docker pull ghcr.io/alainator/encore:latest` and
+recreate the container: the party's data stays in the `encore-data` volume.
 
 ## Updating
 Install the new version over the old one: your songs, settings and party history stay. (The Android apps update in
