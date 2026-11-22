@@ -4,6 +4,40 @@
 adds songs from their phone's browser. These are the installers. Get them from the
 [latest release](../../releases/latest).
 
+## What makes it fun
+
+- **Phones are the remote:** scan the code, search, add your name. Duets, taking turns, a countdown to your turn.
+- **Every TV in the house:** several TVs show the same party, in sync.
+- **Singing scores, guide vocals and key change** for anyone who wants them.
+- **Party games:** Name that tune, Finish the lyric, Sing-off, Team night, roulette, surprise rounds.
+
+<table>
+<tr>
+<td width="50%"><img src="docs/singing-score.gif" alt="A scored song on the TV: the notes scroll above the lyrics, each word lands as PERFECT or GREAT with a combo, then the results card with the grade"></td>
+<td width="50%"><img src="docs/finish-the-lyric.gif" alt="Finish the lyric: a countdown, then the music and the lyrics drop out mid-line while the singer carries on, and the TV shows the words"></td>
+</tr>
+<tr>
+<td><sub><b>Singing score.</b> The notes scroll as you sing; every word is judged, then the grade.</sub></td>
+<td><sub><b>Finish the lyric.</b> The music cuts out mid-line. Keep going.</sub></td>
+</tr>
+<tr>
+<td><img src="docs/name-that-tune.gif" alt="Name that tune: the TV plays a few seconds of a song with four choices, everyone answers on their phone, then the TV reveals the title and who was quickest"></td>
+<td><img src="docs/roulette.gif" alt="Karaoke roulette: song cards spin across the TV and land on a random song for a random singer"></td>
+</tr>
+<tr>
+<td><sub><b>Name that tune.</b> A few seconds of a song, answers on everyone's phone, quickest right answer wins.</sub></td>
+<td><sub><b>Karaoke roulette.</b> The TV spins and picks the song. No backing out.</sub></td>
+</tr>
+<tr>
+<td><img src="docs/team-night.gif" alt="Team night: the scoreboard on the TV, the room rates a song on their phones, the singer's team gets the points, then the winners"></td>
+<td><img src="docs/screensaver.gif" alt="The comic-book screensaver: panels of the library's music videos slide in like a comic page, with the QR code to join"></td>
+</tr>
+<tr>
+<td><sub><b>Team night.</b> Two teams, the room rates every song, the points add up all night.</sub></td>
+<td><sub><b>Comic-book screensaver.</b> Between songs the TV turns your music videos into comic pages (and spares OLED screens).</sub></td>
+</tr>
+</table>
+
 ## Which one do I need?
 
 | You want to… | Get | On |
