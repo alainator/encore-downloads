@@ -10,6 +10,10 @@ adds songs from their phone's browser. These are the installers. Get them from t
 - **Every TV in the house:** several TVs show the same party, in sync.
 - **Singing scores, guide vocals and key change** for anyone who wants them.
 - **Party games:** Name that tune, Finish the lyric, Sing-off, Team night, roulette, surprise rounds.
+- **Album covers and profile pictures:** songs show their cover, singers their photo on the TV's Up next.
+- **Open party:** everyone can pause, skip and reorder, so the host gets to sing too.
+- **Each singer on their own mic:** with two or more mics, everyone gets their own score.
+- **Fits your devices:** Encore lists what your setup can do and what to add (Station → System).
 
 <table>
 <tr>
