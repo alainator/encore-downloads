@@ -54,7 +54,9 @@ address (`/tv`). Set a host PIN when the Station asks. Update with `docker pull 
 recreate the container: the party's data stays in the `encore-data` volume.
 
 ## Updating
-Install the new version over the old one: your songs, settings and party history stay. (The Android apps update in
+From version 0.11 on, Encore checks this page twice a day and the Station's **System** screen says when a new version
+is out, with the right download for that device (only the release's name and file list are fetched; set
+`UPDATE_CHECK=0` to turn it off). Install the new version over the old one: your songs, settings and party history stay. (The Android apps update in
 place because every release is signed with the same key.)
 
 ## Songs
