@@ -38,7 +38,7 @@ adds songs from their phone's browser. These are the installers. Get them from t
 </tr>
 </table>
 
-**What do your TVs, tablets and mics bring, and what do they miss?** See [What your devices can do](DEVICES.md).
+**What do your TVs, tablets and mics bring, and what do they miss?** See [What your devices can do](DEVICES.md). Putting together a setup? [Build your own, for any budget](BUILD.md).
 
 ## Which one do I need?
 

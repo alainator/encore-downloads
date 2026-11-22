@@ -3,6 +3,8 @@
 Encore runs on whatever you already have. This page says what each device brings to the party, and what you give up
 compared with the ideal setup. **Today** = works now. **Coming** = planned, not built yet.
 
+Building a setup? See [Build your own, for any budget](BUILD.md).
+
 ## The ideal setup: the Encore kit (coming)
 
 A small box you carry to any party. It does everything on this page at once, with no internet needed.
