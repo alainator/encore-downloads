@@ -23,14 +23,15 @@ Guests never install anything. iPhones and iPads join from the browser like ever
 3. Open **Encore Station** and pick your songs folder.
 
 ### Android TV, Google TV, SHIELD, Chromecast with Google TV (Encore TV)
-Easiest: once Encore Station is running, open the **Downloader** app on the TV (free, in the Play Store), type the
-address the Station shows under **TVs → Add a TV**, and install. Or copy `Encore-TV-<version>.apk` to the TV with a USB
+Easiest: once Encore Station is running, install the free **Downloader** app on the TV (Play Store), open it and
+type the address the Station shows under **System → TVs → Encore TV on a friend's TV** (it ends in `/tv.apk`). Or copy `Encore-TV-<version>.apk` to the TV with a USB
 stick and open it with a file manager.
 
 ### Fire TV (Encore TV)
 1. Install **Downloader** from the Amazon Appstore.
 2. Settings → My Fire TV → Developer options → **Install unknown apps** → turn on for Downloader.
-3. In Downloader, enter the address the Station shows (or this release's `Encore-TV-<version>.apk` link) and install.
+3. In Downloader, type the address the Station shows (it ends in `/tv.apk`), or this release's
+   `Encore-TV-<version>.apk` link, and install.
 
 ### Windows
 1. Download `Encore-Setup-<version>.exe` and run it.
