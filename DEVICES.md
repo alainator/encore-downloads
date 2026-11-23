@@ -15,7 +15,7 @@ A small box you carry to any party. It does everything on this page at once, wit
 | USB-C touchscreen (about 15") | The Station: the host's (or anyone's) controls at the box |
 | 8 TB drive | Thousands of songs, no internet needed |
 | USB Wi-Fi adapter | The kit's own Wi-Fi: guests scan two codes (Wi-Fi, then the party) and they're in |
-| **2-4 USB wireless mic sets** (each mic with its own USB receiver), or UHF wireless mics into a multi-channel USB audio interface | **Every singer scored separately** (coming) and every voice through the speakers with almost no delay (the kit's own audio, not the browser) |
+| **2-4 USB wireless mic sets** (each mic with its own USB receiver), or UHF wireless mics into a multi-channel USB audio interface | **Every singer scored separately** and every voice through the speakers with almost no delay (the kit's own audio, not the browser) |
 | Speakers (or the TV's) | Music and voices |
 
 Songs come from Karaoke Studio: synced at home over the network, or carried on a USB stick.
@@ -24,7 +24,7 @@ Songs come from Karaoke Studio: synced at home over the network, or carried on a
 
 | Host | Without internet | TV picture | Singing score | Voice through the speakers | What you give up |
 |---|---|---|---|---|---|
-| **Encore kit** | Yes (its own Wi-Fi) | HDMI | Every mic, each singer (coming); one mic today | Yes, almost no delay (coming) | Nothing |
+| **Encore kit** | Yes (its own Wi-Fi) | HDMI | Every mic, each singer | Yes, almost no delay (coming) | Nothing |
 | **Android tablet or phone** (Encore Station) | Yes, if everyone is on the same Wi-Fi or the tablet's hotspot | Encore TV app, casting, or screen mirroring (Smart View) | **Only while the tablet draws the TV picture itself (Smart View):** from the tablet's mic, or one Bluetooth mic | Through the tablet, with a noticeable delay | Multi-mic scoring; low-delay voices; the kit's own Wi-Fi and join codes. Keep the tablet charged: it runs the party |
 | **Windows PC or laptop** | Yes, on the same Wi-Fi | A second screen (HDMI): the TV page full screen | One USB mic (or the laptop's) | Yes, with some delay | Multi-mic scoring; a touchscreen Station unless the laptop has one |
 | **Home server** (Docker) | No: your home network | Encore TV app on each TV | Only on a TV page with a mic (a computer by the TV) | On that computer | The server can't hear a room: scoring needs a computer with a mic at the TV |
@@ -42,7 +42,8 @@ Songs come from Karaoke Studio: synced at home over the network, or carried on a
 
 | Mic | Heard through the party's speakers | Scored | Notes |
 |---|---|---|---|
-| **USB wireless mic set** (USB receiver) | Yes (kit, PC) | Yes | The best choice. Several at once on the kit (coming: each scored) |
+| **USB wireless mic set** (USB receiver) | Yes (kit, PC) | Yes | The best choice. Several at once, each singer scored on their own |
+| **Two wireless mics on one USB receiver** | Yes (kit, PC) | Yes: each mic separately when the receiver gives each mic its own channel (stereo), else one shared score | Encore tells by itself which kind it is. Not tried with a real receiver yet |
 | **UHF wireless mics + USB audio interface** | Yes, mixed by the interface, no delay | Yes: one shared score today; each mic separately with a multi-channel interface (coming) | The classic karaoke setup |
 | **USB mic** (wired) | Yes (kit, PC) | Yes | One per USB port |
 | **Bluetooth mic or headset** paired with the host | Through the host, with a delay | One at a time | Phone-call sound quality and about 0.15-0.3 s of delay: run the Timing check so scoring lines up |
